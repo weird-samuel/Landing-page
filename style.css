@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: poppins;
+    src: url(https://fonts.googleapis.com/css?family=Poppins);
+}
+
+body{
+    background-color: #191620 !important;
+    font-family: poppins;
+    overflow: hidden;
+}
+
+.first{
+    width: 80vw;
+    height: 80vh;
+    border: 5px solid black;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5%;
+    background: url(./Images/bg.jpg) center no-repeat;
+    background-size: 100%;
+}
+
+.intro{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.intro h1{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.intro h3{
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: -5%;
+}
+
+
+
+@media  (max-width: 991px) {
+    .first{
+        width: 100vw;
+        border: none;
+    }
+}
+
+@media  (max-width: 400px){
+    .intro h1{
+        font-size: 3rem;
+    }
+
+    .intro h3{
+        font-size: 2rem;
+    }
+}
